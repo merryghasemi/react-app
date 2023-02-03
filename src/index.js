@@ -1,13 +1,8 @@
-import React from "react";
+
 import ReactDOM from "react-dom";
 
-const element = React.createElement(
-  "div",
+import App from './App'
 
-  { id: "app", className: "container" },
-  "hello"
-);
+import './index.css'
 
-const root = document.getElementById("root");
-
-ReactDOM.render(element, root);
+ReactDOM.render(<App />, document.getElementById("root"));
